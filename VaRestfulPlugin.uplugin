@@ -1,0 +1,25 @@
+{
+	"FileVersion" : 3,
+	
+	"FriendlyName" : "VaRestful",
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"CreatedBy" : "Vladimir Alyamkin + Mynrea",
+	"CreatedByURL" : "",
+	"EngineVersion" : "4.23.0",
+	"Description" : "Mynrea's modification of VaRest",
+	"Category" : "Network",
+
+	"Modules" :
+	[
+		{
+			"Name" : "VaRestfulPlugin",
+			"Type" : "Runtime",
+			"LoadingPhase": "PreDefault"
+		},
+		{
+			"Name": "VaRestfulPluginEditor",
+			"Type": "DeveloperTool"
+		}
+	]
+}
